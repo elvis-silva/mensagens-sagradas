@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_one"
+            android:title="@string/nav_messages" />
+        <item
+            android:id="@+id/nav_salmos"
+            android:icon="@drawable/ic_two"
+            android:title="@string/nav_salmos" />
+        <item
+            android:id="@+id/nav_more_apps"
+            android:icon="@drawable/ic_three"
+            android:title="@string/nav_more_apps" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/more">
+            <menu>
+                <item
+                    android:onClick="executeGoSite"
+                    android:icon="@drawable/ic_www"
+                    android:title="@string/website"/>
+                <item
+                    android:onClick="executeRate"
+                    android:icon="@drawable/ic_rate"
+                    android:title="@string/action_rate"/>
+            </menu>
+        </item>
+    </group>
+</menu>

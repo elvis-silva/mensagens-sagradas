@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="100dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        tools:ignore="UselessParent">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:id="@+id/msg_view"
+            android:textSize="20sp"
+            android:background="@android:drawable/picture_frame"
+            android:padding="20dp" />
+    </ScrollView>
+
+    <!--com.facebook.share.widget.ShareButton
+        android:id="@+id/share_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/msg_view"
+        android:layout_alignLeft="@+id/msg_view"
+        android:layout_alignStart="@+id/msg_view" /-->
+
+
+    <!--com.software.shell.fab.ActionButton
+        android:id="@+id/btn_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="@dimen/fab_margin"
+        fab:type="BIG"
+        fab:button_color="@color/fab_material_blue_500"
+        fab:button_colorPressed="@color/fab_material_blue_900"
+        fab:image="@drawable/envelope"
+        fab:image_size="24dp"
+        fab:shadow_color="#757575"
+        fab:shadow_radius="2.5dp"
+        fab:shadow_xOffset="1.5dp"
+        fab:shadow_yOffset="3.0dp"
+        fab:button_colorRipple="@color/fab_material_green_500"
+        fab:rippleEffect_enabled="false"
+        fab:shadowResponsiveEffect_enabled="true"
+        fab:show_animation="@anim/fab_jump_from_right"
+        fab:hide_animation="@anim/fab_jump_to_right" /-->
+
+</RelativeLayout>
